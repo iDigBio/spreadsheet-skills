@@ -20,7 +20,7 @@ root: .
 >
 > 1.  Whitsett New Ranch in Texas (idigbio normalizes during searches), can only search by one word in a field or exact match. But you have the general search!
 > 2. Download and open and scream! What are all these fields!?!?!
-	data files and master spreadsheet: https://goo.gl/gyRwx7
+	[Data files and master spreadsheet](https://goo.gl/gyRwx7)
 > 3.  Open downloads in text editor
 > 3. Open downloads to view in excel
 > 3. What is weird about the datasets? how are they different and explain differences.
