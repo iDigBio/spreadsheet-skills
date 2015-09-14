@@ -9,9 +9,8 @@ root: .
 1. different kinds of searching - free text, exact match (a lot of fields are exact match)
 2. scientific name is what people entered in the scientific name field (ie not higher taxonomy)
 	Try: Search by Membracidae
-- meaning of present or missing fields, is for the field, not the value in the field
-
-* search only by regular darwin core fields (basic darwin core)
+3. meaning of present or missing fields, is for the field, not the value in the field
+	- search only by regular darwin core fields (basic darwin core)
 
 > Task: Find all records from ranches in Texas
 
