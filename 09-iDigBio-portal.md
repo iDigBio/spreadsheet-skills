@@ -6,12 +6,10 @@ root: .
 
 ##Searching the iDigBio Portal:
 
-* different kinds of searching - free text, exact match (a lot of fields are exact match)
-
-* scientific name is what people entered in the scientific name field (ie not higher taxonomy)
+- different kinds of searching - free text, exact match (a lot of fields are exact match)
+- scientific name is what people entered in the scientific name field (ie not higher taxonomy)
 	Try: Search by Membracidae
-	
-* meaning of present or missing fields, is for the field, not the value in the field
+- meaning of present or missing fields, is for the field, not the value in the field
 
 * search only by regular darwin core fields (basic darwin core)
 
@@ -35,12 +33,13 @@ Task: Find all records from ranches in Texas
 * duplicates when you are sorting, why? Thats because this is specimen records
 
 
-#Publishers Page (breakout group?): The added benefits of having your data in iDigBio:
+###Publishers Page
 *  Our Data: Collections. Be sure you are represented.
 *  Our Data: Publisher recordset
 *  Our Data: API
+ (breakout group?): The added benefits of having your data in iDigBio:
 
-#Research Tools:
+###Research Tools:
 * PhyloJive
 * Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
 
