@@ -21,15 +21,14 @@ root: .
 > 1.  Whitsett New Ranch in Texas (idigbio normalizes during searches), can only search by one word in a field or exact match. But you have the general search!
 > 2. Download and open and scream! What are all these fields!?!?!
 	data files and master spreadsheet: https://goo.gl/gyRwx7
-- Open downloads in text editor
-- Open downloads to view in excel
-- What is weird about the datasets? how are they different and explain differences.
+> 3.  Open downloads in text editor
+> 3. Open downloads to view in excel
+> 3. What is weird about the datasets? how are they different and explain differences.
 		> What is Json? One output is normalized and one is not. How many decimal places are really good? User defined fields. Why so many identifiers?
 		> hide all non-locality fields (how is this iteratively efficient?)
 		> now download all things "Ranch". Remember to select only those with geocoordinates are present (limit by Armstrong Co.).
-> duplicates when you are sorting, why? Thats because this is specimen records
+> 3. Duplicates when you are sorting, Why? Thats because this is specimen records, not locality unique locality records.
 
-test
 
 ###Publishers Page
 *  Our Data: Collections. Be sure you are represented.
