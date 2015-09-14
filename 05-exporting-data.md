@@ -15,9 +15,6 @@ in Excel default file format (`*.xls` or `*.xlsx` - depending on the Excel versi
 
 - Because it is a proprietary format, and it is possible that in the future, technology won’t exist (or will become sufficiently rare)  to make it inconvenient, if not impossible, to open the file. 
 
-Think about zipdisks. How many old theses in your lab are “backed up” and stored on zipdisks? Ever wanted to pull out the raw data from one of those?
-*Exactly.*
-
 - Other spreadsheet software may not be able to open the files saved in a proprietary Excel format.
 
 - Different versions of Excel may be changed so they handle data differently, leading to inconsistencies.
@@ -27,7 +24,9 @@ discussed here.
 
 As an example, do you remember how we talked about how Excel stores dates earlier? Turns out there are multiple defaults for different versions of the software. And you can switch between them all willy-nilly. So, say you’re compiling Excel-stored data from multiple sources. There’s dates in each file- Excel interprets them as their own internally consistent serial numbers. When you combine the data, Excel will take the serial number from the place you’re importing it from, and interpret it using the rule set for the version of Excel you’re using. Essentially, you could be adding a huge error to your data, and it wouldn’t necessarily be flagged by any data cleaning methods if your ranges overlap.
 
-Storing data in a universal, open, static format will help deal with this problem. Try tab-delimited or CSV (more common). CSV files are plain text files where the columns are separated by commas, hence 'comma separated variables' or CSV. The advantage of a CSV over an Excel/SPSS/etc. file is that we can open and read a CSV file using just about any software, including a simple text editor. Data in a CSV can also be easily imported into other formats and environments, such as SQLite and R. We're not tied to a certain version of a certain expensive program when we work with CSV, so it's a good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats like CSV easily, although they complain and make you feel like you’re doing something wrong along the way.
+Storing data in a universal, open, static format will help deal with this problem. Try tab-delimited (TSV) or comma-delimited (CSV). Both are plain text delimited text formats, where in CSV the columns are separated by commas, hence 'comma separated variables' or CSV. TSV the separators are tabs. 
+
+The advantage of a delimited text format over an Excel/SPSS/etc. file is that we can open and read a separated value file using just about any software, including a simple text editor. Data in a separated value file can also be easily imported into other formats and environments, such as SQLite and R. We're not tied to a certain version of a certain expensive program when we work with delimited text formats, so it's a good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats easily, although they complain and make you feel like you’re doing something wrong along the way.
 
 To save a file you have opened in Excel into the `*.csv` format:
 
@@ -58,20 +57,6 @@ thus causing terrible things to happen to your data.  For example, `2\r` is not 
 
 There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSVs:
 
-1. When exporting from Excel, save as a “Windows comma separated (.csv)” file
-2. If you store your data file under version control (which you should be doing!) using Git, edit the `.git/config` file in your repository to automatically translate `\r\n` line endings into `\n`.
-Add the follwing to the file ([see the detailed tutorial](http://nicercode.github.io/blog/2013-04-30-excel-and-line-endings)):
-
-		[filter "cr"]
-    		clean = LC_CTYPE=C awk '{printf(\"%s\\n\", $0)}' | LC_CTYPE=C tr '\\r' '\\n'
-    		smudge = tr '\\n' '\\r'` 
-    
- 	and then create a file `.gitattributes` that contains the line:
- 
- 		*.csv filter=cr
- 
-	
-3. Use [dos2unix](http://dos2unix.sourceforge.net/) (available on OSX, *nix, and Cygwin) on local files to standardize line endings.
-
+- Good text editors (Text Wrangler, Notepad++) can transform line endings for you if you have trouble importing a saved document.
 
 Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)

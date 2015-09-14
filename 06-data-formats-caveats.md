@@ -8,6 +8,8 @@ Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, *
 
 ###Commas as part of data values in `*.csv` files
 
+> CSV is the format of iDigBio downloads.
+
 In the [previous lesson](05-exporting-data.md) we discussed how to export Excel file formats into `*.csv`. Whilst Comma Separated Value files are indeed very useful allowing for easily exchanging and sharing data. 
 
 However, there are some significant problems with this particular format. Quite often the data values themselves may include commas (,). In that case, the software which you use (including Excel) will most likely incorrectly display the data in columns. It is because the commas which are a part of the data values will be interpreted as a delimiter.
@@ -60,6 +62,8 @@ Cleaning up datasets is one of major problems in many scientific disciplines. Th
 
 
 ###Tab Separated Values format
+
+- Also a common format. Great because TSV files can be cut and pasted into Excel for viewing. Problems occur if people use tabs in spreadsheets. Gaining acceptance.
 
 ###Other delimiters for data formats
 

@@ -14,8 +14,6 @@ root: .
 > **Task**: Search by Membracidae
 	
 
- 
-
 > **Task**: Find all records from ranches in Texas
 		- [Data files and master spreadsheet](https://goo.gl/gyRwx7)
 >
