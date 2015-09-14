@@ -10,6 +10,14 @@ root: .
 
 ### =CONCATENATE()
 
+### =IF()
+
+### AND()
+
+### OR()
+
+### LEFT/RIGHT()
+
 ### =MATCH/INDEX
 
 ### =IFERROR()
@@ -22,7 +30,7 @@ root: .
 
 ### =ROUND()
 
-## =TRANSPOSE
+## =TRANSPOSE()
 
 
 
