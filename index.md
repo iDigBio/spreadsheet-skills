@@ -64,7 +64,7 @@ See [Instructor notes](http://idigbio.github.io/spreadsheet-skills/instructor_no
 2. [Formatting data](01-format-data.html)
 3. [Common formatting problems](02-common-mistakes.html)
 4. [Dates as data](03-dates-as-data.html)
-5. [Quality control](04-quality-control.html)
+5. Quality control
 6. [Exporting data](05-exporting-data.html)
 7. [Data Format Caveats](06-data-formats-caveats.html)
 8. [Functions](07-functions.html)
