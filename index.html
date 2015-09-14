@@ -36,6 +36,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </script>
 
 
+<link href="data:text/css,%2F%2A%20Comments%20in%20code%2E%20%2A%2F%0A%2Ecomment%20%7B%0A%20%20%20%20color%3A%20purple%3B%0A%7D%0A%0A%2F%2A%20Highlighted%20changes%20in%20code%2E%20%2A%2F%0A%2Ehighlight%20%7B%0A%20%20%20%20background%2Dcolor%3A%20mistyrose%3B%0A%7D%0A%0A%2F%2A%20Manual%20input%2E%20%2A%2F%0A%2Ein%20%7B%0A%20%20%20%20color%3A%20darkgreen%3B%0A%20%20%20%20margin%2Dleft%3A%2020px%3B%0A%7D%0A%0Adiv%2Ein%3Abefore%20%7B%0A%20%20%20%20content%3A%20%22%22%3B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20width%3A%200%3B%0A%20%20%20%20height%3A%200%3B%0A%20%20%20%20border%2Dtop%3A%2012px%20solid%20transparent%3B%0A%20%20%20%20border%2Dbottom%3A%2012px%20solid%20transparent%3B%0A%20%20%20%20border%2Dleft%3A%2012px%20solid%20%23727272%3B%0A%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20left%3A%2D16px%3B%0A%20%20%20%20top%3A10px%3B%0A%20%20%20%20float%3Aleft%3B%0A%7D%0A%0A%2F%2A%20Program%20output%2E%20%2A%2F%0A%2Eout%20%7B%0A%20%20%20%20color%3A%20darkblue%3B%0A%20%20%20%20margin%2Dleft%3A%2020px%3B%0A%7D%0A%0Adiv%2Eout%3Abefore%20%7B%0A%20%20%20%20content%3A%20%22%22%3B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20width%3A%200%3B%0A%20%20%20%20height%3A%200%3B%0A%20%20%20%20border%2Dtop%3A%2012px%20solid%20transparent%3B%0A%20%20%20%20border%2Dbottom%3A%2012px%20solid%20transparent%3B%0A%20%20%20%20border%2Dright%3A%2012px%20solid%20%23727272%3B%0A%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20left%3A%2D16px%3B%0A%20%20%20%20top%3A10px%3B%0A%20%20%20%20float%3Aleft%3B%0A%7D%0A%0A%2F%2A%20Error%20output%2E%20%2A%2F%0A%2Eerr%20%7B%0A%20%20%20%20color%3A%20darkred%3B%0A%20%20%20%20font%2Dstyle%3A%20italic%3B%0A%20%20%20%20font%2Dweight%3A%20bold%3B%0A%7D%0A%0A%2F%2A%20Explanatory%20call%2Dout%20boxes%2E%20%2A%2F%0Adiv%2Ebox%20%7B%0A%20%20%20%20background%2Dcolor%3A%20lightgray%3B%0A%7D%0A%0A%2F%2A%20Challenge%20questions%2E%20%2A%2F%0Adiv%2Echallenges%20%7B%7D%0A%0A%2F%2A%20Key%20points%20in%20summary%2E%20%2A%2F%0Adiv%2Ekeypoints%20%7B%7D%0A%0A%2F%2A%20Main%20lesson%2E%20%2A%2F%0Adiv%2Elesson%20%7B%7D%0A%0A%2F%2A%20Learning%20objectives%2E%20%2A%2F%0Adiv%2Eobjectives%20%7B%7D%0A%0A%2F%2A%20Continuation%20paragraph%2E%20%2A%2F%0Ap%2Econtinue%20%7B%7D%0A" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -67,15 +68,15 @@ img {
 <!-- THE LESSON INFORMATION -->
 
 
-<div id="data-carpentry-page.topic-for-page.domain" class="section level1">
-<h1>#Data Carpentry {{ page.topic }} for {{ page.domain }}</h1>
-<p>This lesson was recently copied from Data Carpentry Better Spreadsheet Skills for Ecologists. Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. The lessons below were designed for those interested in working with {{page.domain %}} data in {{page.topic %}}.</p>
+<div id="idigbio-page.topic-for-page.domain" class="section level1">
+<h1>#iDigBio {{ page.topic }} for {{ page.domain }}</h1>
+<p>This lesson was recently cloned and expanded from Data Carpentry’s “Better Spreadsheet Skills for Ecologists”. Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. The lessons below were designed for those interested in working with {{page.domain %}} data in {{page.topic %}}.</p>
 <p><strong>Content Contributors: {{page.contributors | join: ‘,’ %}}</strong></p>
 <p><strong>Lesson Maintainers: {{page.maintainers | join: ‘,’ %}}</strong></p>
 <p><strong>Lesson status: {{ page.status }}</strong></p>
 <div id="instructors" class="section level3">
 <h3>Instructors</h3>
-<p>See <a href="http://idigbio.github.io/spreadsheet-ecology-lesson/instructor_notes.html">Instructor notes</a> on how to teach this lesson.</p>
+<p>See <a href="http://idigbio.github.io/spreadsheet-skills/instructor_notes.html">Instructor notes</a> on how to teach this lesson.</p>
 <!--
   [Information on Lesson Status Categories]()
 -->
@@ -93,7 +94,9 @@ img {
 <li><a href="04-quality-control.html">Quality control</a></li>
 <li><a href="05-exporting-data.html">Exporting data</a></li>
 <li><a href="06-data-formats-caveats.html">Data Format Caveats</a></li>
-<li><a href="06-functions.html">Functions</a></li>
+<li><a href="07-functions.html">Functions</a></li>
+<li><a href="08-regular-expressions.html">Regular Expressions</a></li>
+<li><a href="09-iDigBio-portal.html">iDigbio Portal Exercise</a></li>
 </ol>
 </div>
 <div id="data" class="section level2">

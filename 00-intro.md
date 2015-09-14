@@ -4,9 +4,8 @@ title: Using spreadsheet programs for scientific data
 root: .
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and
-**Ben Marwick**
+Data Carpentry Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
+Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Katja Seltmann**, **Clare Sloggett**, **Harriet Dashnow** and **Ben Marwick**
 
 Good data organization is the foundation of your research project. Most researchers
 have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
@@ -22,11 +21,12 @@ In this lesson, we’re going to talk about:
 - Dates as data - beware!
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
-- Simple functions
+- Simple function
+- Taming the iDigBio Portal
 
 *Overall good data practices*
 
-**Much of your time as a researcher will be spent in this 'data wrangling' stage.**
+**Much of your time as a manager or researcher will be spent in this 'data wrangling' stage.**
 It's not the most fun, but it's necessary. We'll teach you how to think
 about data organization and some practices for more effective data wrangling.
 
@@ -46,13 +46,11 @@ Head First Excel by O'Reilly
 
 ### Why aren't we teaching data analysis in spreadsheets
 
-- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run
-an analyses with a new dataset, you usually have to redo everything by hand. (We do know
-that you can create macros, but see the next point.)
+- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run an analyses with a new dataset, you usually have to redo everything by hand. (We do know that you can create macros, but see the next point.)
 - It is also difficult to track or reproduce statistical or plotting analyses 
 done in spreadsheet programs when you want to go back to your work or someone asks 
 for details of your analysis.
-
+- We envision spreadsheets as a way to view and rearrange data for use in other applications or databases to store the data.
 
 ### Spreadsheet programs
 
@@ -92,9 +90,7 @@ easily?
 ## Problems with Spreadsheets
 
 Spreadsheets are good for data entry, but in reality we tend to use spreadsheet 
-programs for much more 
-than data entry. We use them to create data tables for publications, to generate 
-summary statistics, and make figures. 
+programs for much more than data entry. We use them to create data tables for publications, to generate summary statistics, and make figures. 
 
 Generating tables for publications in a spreadsheet is not optimal- often, 
 when formatting a data table for publication, we’re reporting key summary 
@@ -103,7 +99,7 @@ involves special formatting (merging cells, creating borders, making it
 pretty). We advise you to do this sort of operation within your document 
 editing software.
 
-The latter two applications,  generating statistics and figures,  should 
+The latter two applications,  generating statistics and figures, should 
 be used with caution: because of the graphical, drag and drop nature of 
 spreadsheet programs, it can be very difficult, if not impossible, to 
 replicate your steps (much less retrace anyone else's), particularly if your 

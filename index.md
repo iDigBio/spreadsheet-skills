@@ -1,14 +1,28 @@
 ---
-layout: lesson
-root: .
-lastupdated: August 18, 2015
-contributors: ["Christie Bahlai", "Aleksandra Pawlik", "Jennifer Bryan", "Alexander Duryee", "Jeffrey Hollister", "Daisie Huang", "Owen Jones", "Ben Marwick", "Tracy Teal"]
-maintainers: ["Deb Paul", "Katja Seltmann"]
+contributors:
+- Christie Bahlai
+- Aleksandra Pawlik
+- Jennifer Bryan
+- Alexander Duryee
+- Jeffrey Hollister
+- Daisie Huang
+- Owen Jones
+- Ben Marwick
+- Tracy Teal
+- Katja Seltmann
+dataurl: https://goo.gl/gyRwx7
 domain: Biology
-topic: Spreadsheets
+lastupdated: August 18, 2015
+layout: lesson
+maintainers:
+- Deb Paul
+- Katja Seltmann
+output:
+  html_document: default
+root: .
 software: Spreadsheets
-dataurl: https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0
 status: Teaching
+topic: Spreadsheets
 ---
 
 <!-- USING THIS LESSON TEMPLATE -->
@@ -17,11 +31,10 @@ status: Teaching
 <!-- THE LESSON INFORMATION -->
 
 
-<!--#Data Carpentry {{ page.topic }} for {{ page.domain }}-->
+#iDigBio {{ page.topic }} for {{ page.domain }}
 =======
 
-This lesson was recently copied from Data Carpentry Better Spreadsheet Skills for Ecologists. Data Carpentry's aim is to teach researchers basic concepts, skills,
-and tools for working with data so that they can get more done in less
+This lesson was recently cloned and expanded from Data Carpentry's "Better Spreadsheet Skills for Ecologists". Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less
 time, and with less pain. The lessons below were designed for those interested
 in working with {{page.domain %}} data in {{page.topic %}}.
 
@@ -35,7 +48,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 **Lesson status: {{ page.status }}**
 
 ### Instructors
-See [Instructor notes](http://www.datacarpentry.org/spreadsheet-ecology-lesson/instructor_notes.html) on how to teach this lesson.
+See [Instructor notes](http://idigbio.github.io/spreadsheet-skills/instructor_notes.html) on how to teach this lesson.
 
 <!--
   [Information on Lesson Status Categories]()
@@ -52,7 +65,9 @@ See [Instructor notes](http://www.datacarpentry.org/spreadsheet-ecology-lesson/i
 5. [Quality control](04-quality-control.html)
 6. [Exporting data](05-exporting-data.html)
 7. [Data Format Caveats](06-data-formats-caveats.html)
-8. [Functions](06-functions.html)
+8. [Functions](07-functions.html)
+9. [Regular Expressions](08-regular-expressions.html)
+10. [iDigbio Portal Exercise](09-iDigBio-portal.html)
 
 
 
@@ -69,9 +84,6 @@ their own computers to insure the proper setup of tools for an efficient workflo
 through this lesson requires working copies of the software described below.
 To most effectively use these materials, please make sure to install everything
 *before* working through this lesson.
-
-
-
 
 {% if page.software == "Python" %}
 {% include pythonSetup.html %}
