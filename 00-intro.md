@@ -132,6 +132,8 @@ In this lesson, we’re going to talk about:
 4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
 5. [Exporting data from spreadsheets.](05-exporting-data.html)
 6. [Data export formats caveats](06-data-formats-caveats.html)
-7. [Functions](07-functions.html)
+8. [Functions](07-functions.html)
+9. [Regular Expressions](08-regular-expressions.html)
+10. [iDigbio Portal Exercise](09-iDigBio-portal.html)
 
 Next: [Formatting data tables in spreadsheets.](01-format-data.html)
