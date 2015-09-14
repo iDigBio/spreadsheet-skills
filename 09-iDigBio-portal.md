@@ -41,12 +41,12 @@ root: .
 - PhyloJive
   - Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
 
-**Task**: Try searching the tree for Pseudopsallus.
+>**Task**: Try searching the tree for Pseudopsallus.
 
 - LifeMapper
   - Tutorial: http://lifemapper.acis.ufl.edu/lm/map/tutorial/
 
-**Task**: Solenopsis invicta Red-imported fire ant
+>**Task**: Solenopsis invicta Red-imported fire ant
 
 
 
