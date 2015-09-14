@@ -39,11 +39,13 @@ root: .
 
 ###Research Tools:
 1. PhyloJive
-* Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
+
+Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
 
 **Task**: Try searching the tree for Pseudopsallus.
 
 2. LifeMapper
+
 Tutorial: http://lifemapper.acis.ufl.edu/lm/map/tutorial/
 **Task**: Solenopsis invicta Red-imported fire ant
 
