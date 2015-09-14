@@ -76,23 +76,3 @@ See [Instructor notes](http://idigbio.github.io/spreadsheet-skills/instructor_no
 Data files for the lesson are available here: [{{page.dataurl %}}]({{page.dataurl %}})
 
 
-### Requirements
-
-Data Carpentry's teaching is hands-on, so participants are encouraged to use
-their own computers to insure the proper setup of tools for an efficient workflow.
-*These lessons assume no prior knowledge of the skills or tools*, but working
-through this lesson requires working copies of the software described below.
-To most effectively use these materials, please make sure to install everything
-*before* working through this lesson.
-
-{% if page.software == "Python" %}
-{% include pythonSetup.html %}
-{% elsif page.software == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
-{% elsif page.software == "R" %}
-{% include rSetup.html %}
-{% else %}
-{% include anySetup.html %}
-{% endif %}
-
-<p><strong>Twitter</strong>: @datacarpentry, @idigbio
