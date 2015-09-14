@@ -6,8 +6,8 @@ root: .
 
 ##Searching the iDigBio Portal:
 
-- different kinds of searching - free text, exact match (a lot of fields are exact match)
-- scientific name is what people entered in the scientific name field (ie not higher taxonomy)
+1. different kinds of searching - free text, exact match (a lot of fields are exact match)
+2. scientific name is what people entered in the scientific name field (ie not higher taxonomy)
 	Try: Search by Membracidae
 - meaning of present or missing fields, is for the field, not the value in the field
 
