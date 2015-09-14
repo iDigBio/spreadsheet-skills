@@ -22,6 +22,7 @@ In this lesson, we’re going to talk about:
 - Dates as data - beware!
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
+- Simple functions
 
 *Overall good data practices*
 
