@@ -108,13 +108,6 @@ in 2013 and one in 2014, and they both kept track of the data in their own way. 
 you're the person in charge of this project and you want to be able to start doing
 statistics with the data. 
 
-- With the person next to you, work on the messy data so that a computer will
-be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
-in one spreadsheet. 
-
-After you go through this exercise, we'll discuss as a group what you think was wrong
-with this data and how you fixed it. 
-
-*Instructors see notes in 'instructors_notes.md' on this exercise.*
+- How would you clean up this datasheet?
 
 Previous: [Introduction](00-intro.html)  Next: [Formatting problems](02-common-mistakes.html)
