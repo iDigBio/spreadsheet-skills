@@ -27,6 +27,7 @@ root: .
 		> now download all things "Ranch". Remember to select only those with geocoordinates are present (limit by Armstrong Co.).
 > duplicates when you are sorting, why? Thats because this is specimen records
 
+test
 
 ###Publishers Page
 *  Our Data: Collections. Be sure you are represented.
