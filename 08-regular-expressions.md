@@ -5,7 +5,7 @@ root: .
 ---
 ###Using text editors in conjunction with Excel.
 - Good text editors (Text Wrangler, Notepad++) can transform line endings for you if you have trouble importing a saved document.
-- Copy and paste to remove functions and keep values.
+- Copy and paste to remove functions and keep values, if you are using a tab-delimited file.
 - Some things are just easier to do in text editors.
 
 ## What are regular expressions?
