@@ -13,7 +13,7 @@ root: .
 
 * search only by regular darwin core fields (basic darwin core)
 
-Task: Find all records from ranches in Texas
+> Task: Find all records from ranches in Texas
 
 * Whitsett New Ranch in Texas (idigbio normalizes during searches), can only search by one word in a field or exact match. But you have the general search!
 
