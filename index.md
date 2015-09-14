@@ -20,7 +20,7 @@ maintainers:
 output:
   html_document: default
 root: .
-software: Spreadsheets
+software: Spreadsheet Skills
 status: Teaching
 topic: Spreadsheets
 ---
