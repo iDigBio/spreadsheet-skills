@@ -3,10 +3,11 @@ layout: lesson
 root: .
 lastupdated: August 18, 2015
 contributors: ["Christie Bahlai", "Aleksandra Pawlik", "Jennifer Bryan", "Alexander Duryee", "Jeffrey Hollister", "Daisie Huang", "Owen Jones", "Ben Marwick", "Tracy Teal"]
-maintainers: ["Aleksandra Pawlik", "Tracy Teal"]
-domain: Ecology
+maintainers: ["Deb Paul", "Katja Seltmann"]
+domain: Biology
 topic: Spreadsheets
 software: Spreadsheets
+title: Better spreadsheet skills for biology
 dataurl: https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0
 status: Teaching
 ---
@@ -20,7 +21,7 @@ status: Teaching
 #Data Carpentry {{ page.topic }} for {{ page.domain }}
 =======
 
-Data Carpentry's aim is to teach researchers basic concepts, skills,
+This lesson was recently copied from Data Carpentry Better Spreadsheet Skills for Ecologists. Data Carpentry's aim is to teach researchers basic concepts, skills,
 and tools for working with data so that they can get more done in less
 time, and with less pain. The lessons below were designed for those interested
 in working with {{page.domain %}} data in {{page.topic %}}.
@@ -52,6 +53,7 @@ See [Instructor notes](http://idigbio.github.io/spreadsheet-ecology-lesson/instr
 5. [Quality control](04-quality-control.html)
 6. [Exporting data](05-exporting-data.html)
 7. [Data Format Caveats](06-data-formats-caveats.html)
+8. [Functions](06-functions.html)
 
 
 
@@ -82,4 +84,4 @@ To most effectively use these materials, please make sure to install everything
 {% include anySetup.html %}
 {% endif %}
 
-<p><strong>Twitter</strong>: @datacarpentry
+<p><strong>Twitter</strong>: @datacarpentry, @idigbio

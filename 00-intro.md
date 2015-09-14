@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: 
+title: Using spreadsheet programs for scientific data
 root: .
 ---
 
