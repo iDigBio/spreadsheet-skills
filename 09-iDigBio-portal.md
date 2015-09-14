@@ -11,7 +11,7 @@ root: .
 
 2. Scientific name is what people entered in the scientific name field (ie not higher taxonomy!). It is important to remember the definition of the Darwin Core fields, not how the name is generally understood.
 
-> Task: Search by Membracidae
+> **Task**: Search by Membracidae
 	
 
  
@@ -34,22 +34,18 @@ root: .
 *  Our Data: Collections. Be sure you are represented.
 *  Our Data: Publisher recordset
 *  Our Data: API
- (breakout group?): The added benefits of having your data in iDigBio:
+
+**Task**: Explore the added benefits of having your data in iDigBio.
 
 ###Research Tools:
-* PhyloJive
+1. PhyloJive
 * Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
 
-*PhyloJive video demo:
-http://idigbio.adobeconnect.com/p42g9c33loj/
-http://phylojive.acis.ufl.edu/PhyloJive/ManageTrees.jsp
-Try: Pseudopsallus
+**Task**: Try searching the tree for Pseudopsallus.
 
-*LifeMapper
+2. LifeMapper
 Tutorial: http://lifemapper.acis.ufl.edu/lm/map/tutorial/
-Try: Solenopsis invicta Red-imported fire ant
-Lifemapper, the SPNHC demo was recorded at: 
-https://idigbio.adobeconnect.com/_a1130716096/p8li8yf35x9/?launcher=false&fcsContent=true&pbMode=normal
+**Task**: Solenopsis invicta Red-imported fire ant
 
 
 
