@@ -17,7 +17,7 @@ status: Teaching
 <!-- THE LESSON INFORMATION -->
 
 
-#Data Carpentry {{ page.topic }} for {{ page.domain }}
+<!--#Data Carpentry {{ page.topic }} for {{ page.domain }}-->
 =======
 
 This lesson was recently copied from Data Carpentry Better Spreadsheet Skills for Ecologists. Data Carpentry's aim is to teach researchers basic concepts, skills,
@@ -35,7 +35,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 **Lesson status: {{ page.status }}**
 
 ### Instructors
-See [Instructor notes](http://idigbio.github.io/spreadsheet-ecology-lesson/instructor_notes.html) on how to teach this lesson.
+See [Instructor notes](http://www.datacarpentry.org/spreadsheet-ecology-lesson/instructor_notes.html) on how to teach this lesson.
 
 <!--
   [Information on Lesson Status Categories]()
