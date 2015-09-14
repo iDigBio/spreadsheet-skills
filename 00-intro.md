@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Using spreadsheet programs for scientific data
+title: 
 root: .
 ---
 
