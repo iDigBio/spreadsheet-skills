@@ -30,20 +30,20 @@ root: .
 > 3. Duplicates when you are sorting, Why? Thats because this is specimen records, not locality unique locality records.
 
 
-###Publishers Page
+##Publishers Page
 *  Our Data: Collections. Be sure you are represented.
 *  Our Data: Publisher recordset
 *  Our Data: API
 
 **Task**: Explore the added benefits of having your data in iDigBio.
 
-###Research Tools:
-- PhyloJive
+##Research Tools:
+###PhyloJive
   - Tutorial: http://phylojive.acis.ufl.edu/PhyloJive/Tutorial.jsp
 
 >**Task**: Try searching the tree for Pseudopsallus.
 
-- LifeMapper
+###LifeMapper
   - Tutorial: http://lifemapper.acis.ufl.edu/lm/map/tutorial/
 
 >**Task**: Solenopsis invicta Red-imported fire ant
