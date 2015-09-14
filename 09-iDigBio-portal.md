@@ -7,12 +7,14 @@ root: .
 ##Searching the iDigBio Portal:
 
 1. Every field returns results, but handles the entered data differently. Most fields are exact matches, and all follow Darwin Core definitions put in those fields by the people providing data. Data normalization, or the standardization of some fields, is done by iDigBio to help with searching records. 
+	- The meaning of present or missing fields refers to the field, not the value in the field.
 
 2. Scientific name is what people entered in the scientific name field (ie not higher taxonomy!). It is important to remember the definition of the Darwin Core fields, not how the name is generally understood.
 
 > Task: Search by Membracidae
 	
-3. The meaning of present or missing fields refers to the field, not the value in the field. 
+
+ 
 
 > Task: Find all records from ranches in Texas
 >
