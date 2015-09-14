@@ -55,8 +55,11 @@ which, upon passing into most environments (which split on `\n`), will parse as:
 
 thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
 
-There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSVs:
+There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSVs.
 
+##Using text editors in conjunction with Excel.
 - Good text editors (Text Wrangler, Notepad++) can transform line endings for you if you have trouble importing a saved document.
+- Copy and paste to remove functions and keep values.
+- Some things are just easier to do in text editors.
 
 Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)
