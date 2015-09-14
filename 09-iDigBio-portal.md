@@ -16,7 +16,7 @@ root: .
 
  
 
-> *Task*: Find all records from ranches in Texas
+> **Task**: Find all records from ranches in Texas
 >
 > 1.  Whitsett New Ranch in Texas (idigbio normalizes during searches), can only search by one word in a field or exact match. But you have the general search!
 > 2. Download and open and scream! What are all these fields!?!?!
