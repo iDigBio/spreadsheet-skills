@@ -7,7 +7,6 @@ maintainers: ["Deb Paul", "Katja Seltmann"]
 domain: Biology
 topic: Spreadsheets
 software: Spreadsheets
-title: Better spreadsheet skills for biology
 dataurl: https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0
 status: Teaching
 ---
