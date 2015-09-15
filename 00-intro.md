@@ -10,6 +10,18 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 Good data organization is the foundation of your research project. Most researchers
 have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
 
+**Much of your time as a manager or researcher will be spent in this 'data wrangling' stage.**
+
+It could be manipulating data to get it **in** a database, or **modifying** output from a database to do something. Examples: Data summaries for a project or institutional report, database migration, preparing for analysis in another software, share a temporary list of taxon names for a student working in a collection, or a data list for sharing and visualizing content in your collection. 
+
+Regarding data migration: Likely you should NOT be using spreadsheets except to visualize data. Delimited text files are used for moving data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few, first steps:
+
+	1. Understand the data you are merging. Carefully define the fields from the export database and map to the import database.
+	2. Make a list of the data transformations/data cleaning you need to do. This document is very useful, as most data cleaning efforts happen **more than once**.
+	3. Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
+	4. Once you understand the data transformations, than you can discover the best way to make those happen.
+	* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
+
 ---
 
 ### Spreadsheet outline
@@ -23,31 +35,6 @@ In this lesson, we’re going to talk about:
 - Exporting data from spreadsheets
 - Simple function
 - Taming the iDigBio Portal
-
-*Overall good data practices*
-
-**Much of your time as a manager or researcher will be spent in this 'data wrangling' stage.**
-
-It could be manipulating data to get it **in** a database, or **modifying** output from a database to do something. Examples: Data summaries for a project or institutional report, database migration, preparing for analysis in another software, share a temporary list of taxon names for a student working in a collection, or a data list for sharing and visualizing content in your collection. 
-
-Regarding data migration: Likely you should NOT be using spreadsheets except to visualize data. Delimited text files are used for moving data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few, first steps:
-
-	1. Understand the data you are merging. Carefully define the fields from the export database and map to the import database.
-	2. Make a list of the data transformations/data cleaning you need to do. This document is very useful, as most data cleaning efforts happen **more than once**.
-	3. Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
-	4. Once you understand the data transformations, than you can discover the best way to make those happen.
-	* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
----
-
-### What are we doing in this lesson
-
-- Common mistakes
-- Dates
-- Exporting data
-- Data format issues
-- Some functions
-- Using a text editor in conjunction with a spreadsheet program.
-- iDigBio portal
 
 ---
 
@@ -68,7 +55,7 @@ spreadsheet program
 - OpenOffice.org
 
 Commands may differ a bit between programs, but general ideas
-for thinking about spreadsheets is the same.
+for thinking about spreadsheets is the same. **Group yourselves**
 
 ---
 
@@ -82,43 +69,6 @@ to be able to do as researchers. We can use them for:
 - Plotting
 
 ---
-
-## Problems with Spreadsheets
-
-Spreadsheets are good for data entry, but in reality we tend to use spreadsheet 
-programs for much more than data entry. We use them to create data tables for publications, to generate summary statistics, and make figures. 
-
-Generating tables for publications in a spreadsheet is not optimal- often, 
-when formatting a data table for publication, we’re reporting key summary 
-statistics in a way that is not really meant to be read as data, and often 
-involves special formatting (merging cells, creating borders, making it 
-pretty). We advise you to do this sort of operation within your document 
-editing software.
-
-The latter two applications,  generating statistics and figures, should 
-be used with caution: because of the graphical, drag and drop nature of 
-spreadsheet programs, it can be very difficult, if not impossible, to 
-replicate your steps (much less retrace anyone else's), particularly if your 
-stats or figures require you to do more complex calculations. Furthermore, 
-in doing calculations in a spreadsheet, it’s easy to accidentally apply a 
-slightly different formula to multiple adjacent cells. When using a 
-command-line based statistics program like R or SAS, it’s practically 
-impossible to accidentally apply a calculation to one observation in your 
-dataset but not another unless you’re doing it on purpose. 
-
-### Using for Spreadsheets for Data Entry and Cleaning
-
-HOWEVER, there are circumstances where you might want to use a spreadsheet 
-program to produce “quick and dirty” calculations or figures, and some of 
-these features can be used in data cleaning, prior to importation into a 
-statistical analysis program. We will show you how to use some features of 
-spreadsheet programs to check your data quality along the way and produce 
-preliminary summary statistics.
-
-In this lesson, we will assume that you are most likely using Excel as your 
-primary spreadsheet program- there are others (gnumeric, Calc from OpenOffice),
- and their functionality is similar, but Excel seems to be the program most 
-used by biologists and ecologists.
 
 In this lesson, we’re going to talk about:
 
