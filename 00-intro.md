@@ -22,7 +22,7 @@ It could be manipulating data to get it **in** a database, or **modifying** outp
 		* Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
 	
 	4. Once you understand the data transformations, than you can discover the best way to make those happen.
-		* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
+		>* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
 		
 	5.  Delimited text files are used for moving data. 
 
