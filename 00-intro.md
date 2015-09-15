@@ -14,13 +14,17 @@ have data or do data entry in spreadsheets. Spreadsheet programs are very useful
 
 It could be manipulating data to get it **in** a database, or **modifying** output from a database to do something. Examples: Data summaries for a project or institutional report, database migration, preparing for analysis in another software, share a temporary list of taxon names for a student working in a collection, or a data list for sharing and visualizing content in your collection. 
 
-Regarding data migration: Likely you should NOT be using spreadsheets except to visualize data. Delimited text files are used for moving data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few, first steps:
+**Regarding data migration**: Likely you should NOT be using spreadsheets except to visualize snapshots of your data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few first steps to help you organize your process:
 
 	1. Understand the data you are merging. Carefully define the fields from the export database and map to the import database.
-	2. Make a list of the data transformations/data cleaning you need to do. This document is very useful, as most data cleaning efforts happen **more than once**.
-	3. Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
+	
+	2. Make a list of the data transformations/data cleaning you need to do. This document is very useful, as most data cleaning efforts occur **more than once**.
+		* Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
+	
 	4. Once you understand the data transformations, than you can discover the best way to make those happen.
-	* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
+		* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
+		
+	5.  Delimited text files are used for moving data. 
 
 ---
 
@@ -33,7 +37,7 @@ In this lesson, we’re going to talk about:
 - Dates as data - beware!
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
-- Simple function
+- Simple functions
 - Taming the iDigBio Portal
 
 ---
