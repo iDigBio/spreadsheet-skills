@@ -27,20 +27,27 @@ In this lesson, we’re going to talk about:
 *Overall good data practices*
 
 **Much of your time as a manager or researcher will be spent in this 'data wrangling' stage.**
-It's not the most fun, but it's necessary. We'll teach you how to think
-about data organization and some practices for more effective data wrangling.
 
+It could be manipulating data to get it **in** a database, or **modifying** output from a database to do something. Examples: Data summaries for a project or institutional report, database migration, preparing for analysis in another software, share a temporary list of taxon names for a student working in a collection, or a data list for sharing and visualizing content in your collection. 
 
+Regarding data migration: Likely you should NOT be using spreadsheets except to visualize data. Delimited text files are used for moving data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few, first steps:
+
+	1. Understand the data you are merging. Carefully define the fields from the export database and map to the import database.
+	2. Make a list of the data transformations/data cleaning you need to do. This document is very useful, as most data cleaning efforts happen **more than once**.
+	3. Data cleaning is iterative. Not between datasets, but on the same dataset. This is the reason we suggest repeatable methods for data cleaning.
+	4. Once you understand the data transformations, than you can discover the best way to make those happen.
+	* If you have a lot to do and its very challenging, it might be time to ask for help. If you know what you need to do very specifically, it becomes clearer and easier (cheaper) when you do reach out for help.
 ---
 
-### What this lesson will not teach you
+### What are we doing in this lesson
 
-- How to do statistics in a spreadsheet
-- How to do plotting in a spreadsheet
-- How to write code in spreadsheet programs
-
-If you're looking to do this, a good reference is
-Head First Excel by O'Reilly
+- Common mistakes
+- Dates
+- Exporting data
+- Data format issues
+- Some functions
+- Using a text editor in conjunction with a spreadsheet program.
+- iDigBio portal
 
 ---
 
@@ -73,17 +80,6 @@ to be able to do as researchers. We can use them for:
 - Subsetting and sorting data
 - Statistics
 - Plotting
-
----
-
-How many people have used spreadsheets in their research?
-
-Spreadsheets can be very useful, but they can also be
-frustrating and even sometimes give us incorrect results.
-
-What are some things that you've accidentally done in
-a spreadsheet, or have been frustrated that you can't do
-easily?
 
 ---
 
