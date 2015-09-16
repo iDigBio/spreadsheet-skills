@@ -86,16 +86,19 @@ We're going to take a messy subset of the occurrence data spreadsheet and clean 
 3. Create a methods tab
 
 ###Let's Get Started
-1. Merge the two tables together.
-2. Map Darwin Core and label headers.
-3. What kind of id is that?
+1. Merge the two tables together
+2. Map Darwin Core and label headers
 7. 0 and NULL values
+
+##Generate a UUID or what kind of ID is that?
+=LOWER(CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),"-",DEC2HEX(RANDBETWEEN(0,65535),4),"-",DEC2HEX(RANDBETWEEN(16384,20479),4),"-",DEC2HEX(RANDBETWEEN(32768,49151),4),"-",DEC2HEX(RANDBETWEEN(0,65535),4),DEC2HEX(RANDBETWEEN(0,4294967295),8)))
 
 ###Using Your Text Editor
 4. Separate country and state [\s\w+\n]
 5. =CONCATENATE() a scientificName
 6. =TRIM() a field
 7. Multiple data types in one field M/F
+
 
 ###Advanced Functions
 7. Look at taxon names
