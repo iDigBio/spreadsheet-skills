@@ -4,7 +4,7 @@ title: Formatting data tables in Spreadsheets
 root: .
 ---
 
-Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
+Authors: **Katja Seltmann**,**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, 
 **Ben Marwick** and **Sebastian Kupny**.
 
@@ -88,7 +88,7 @@ in different columns, you can see that it would be much easier.
 ###Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is columns= variables, 
-rows = observations, cells=data (values).
+rows = records, cells=data (values).
 
 So, instead we should have:
 
@@ -96,17 +96,15 @@ So, instead we should have:
 
 ## Exercise
 
-We're going to take a messy version of the survey data and clean it up.
+We're going to take a messy subset of the occurrence data spreadsheet and clean it up.
 
 - Download the data by clicking [here](https://goo.gl/gyRwx7)
 
-- Open up the data in a spreadsheet program 
-
-- You can see that there are two tabs. Two field assistants conducted the surveys, one
-in 2013 and one in 2014, and they both kept track of the data in their own way. Now
-you're the person in charge of this project and you want to be able to start doing
-statistics with the data. 
-
+- Open your data in a text editing program and look at it.
+	* How is the data delimited?
+	
+- Open in a spreadsheet program.
+	
 - How would you clean up this datasheet?
 
 Previous: [Introduction](00-intro.html)  Next: [Formatting problems](02-common-mistakes.html)

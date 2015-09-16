@@ -4,8 +4,8 @@ title: Using spreadsheet programs for scientific data
 root: .
 ---
 
-Data Carpentry Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Katja Seltmann**, **Clare Sloggett**, **Harriet Dashnow** and **Ben Marwick**
+Data Carpentry Authors:**Katja Seltmann**, **Christie Bahlai**, **Aleksandra Pawlik**<br>
+Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and **Ben Marwick**
 
 Good data organization is the foundation of your research project. Most researchers
 have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
@@ -14,7 +14,7 @@ have data or do data entry in spreadsheets. Spreadsheet programs are very useful
 
 It could be manipulating data to get it **in** a database, or **modifying** output from a database to do something. Examples: Data summaries for a project or institutional report, database migration, preparing for analysis in another software, share a temporary list of taxon names for a student working in a collection, or a data list for sharing and visualizing content in your collection. 
 
-**Regarding data migration**: Likely you should NOT be using spreadsheets except to visualize snapshots of your data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few first steps to help you organize your process:
+**Regarding data migration**: Spreadsheets are very useful to visualize snapshots of your data. Your data workflow for cleaning data will be different based on your data transformation issues, but there are a few first steps to help you organize your process:
 
 - Understand the data you are merging. Carefully define the fields from the export database and map to the import database.
 	
@@ -43,14 +43,6 @@ In this lesson, we’re going to talk about:
 - Taming the iDigBio Portal
 
 ---
-
-### Why aren't we teaching data analysis in spreadsheets
-
-- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run an analyses with a new dataset, you usually have to redo everything by hand. (We do know that you can create macros, but see the next point.)
-- It is also difficult to track or reproduce statistical or plotting analyses 
-done in spreadsheet programs when you want to go back to your work or someone asks 
-for details of your analysis.
-- We envision spreadsheets as a way to view and rearrange data for use in other applications or databases to store the data.
 
 ### Spreadsheet programs
 
