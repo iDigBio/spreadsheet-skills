@@ -90,7 +90,7 @@ We're going to take a messy subset of the occurrence data spreadsheet and clean 
 2. Map Darwin Core and label headers
 7. 0 and NULL values
 
-##Generate a UUID or what kind of ID is that?
+###Generate a UUID and identify IDs in the dataset
 =LOWER(CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),"-",DEC2HEX(RANDBETWEEN(0,65535),4),"-",DEC2HEX(RANDBETWEEN(16384,20479),4),"-",DEC2HEX(RANDBETWEEN(32768,49151),4),"-",DEC2HEX(RANDBETWEEN(0,65535),4),DEC2HEX(RANDBETWEEN(0,4294967295),8)))
 
 ###Using Your Text Editor
