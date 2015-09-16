@@ -53,7 +53,7 @@ root: .
 > [^aeiou] = everything but what is in the character group
 
 
-[answers: (^\S+)(.)(-\S+); $3$2$1]
+[answers: (^\S+)(.)(-\S+); $3$2$1 or \3\2\1]
 
 
 
