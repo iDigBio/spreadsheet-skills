@@ -72,27 +72,6 @@ seems like one thing, but think if that's the only way you'll want to be able to
 5. Export the cleaned data to a text based format like CSV. This ensures that anyone 
 can use the data, and is the format required by most data repositories.
 
-For instance, we have data from a survey of small mammals in a desert ecosystem.
-Different people have gone to the field and entered data in to a spreadsheet.
-They keep track of things like species, plot, weight, sex and date collected. 
-
-If they were to keep track of the data like this:
-
-![multiple-info example](fig/multiple-info.png)
-
-the problem is that species and sex are in the same field. So, if they wanted to 
-look at all of one species or look at different weight distributions by sex, 
-it would be hard to set up the data to do this. If instead we put sex and species 
-in different columns, you can see that it would be much easier. 
-
-###Columns for variables and rows for observations
-
-The rule of thumb, when setting up a datasheet, is columns= variables, 
-rows = records, cells=data (values).
-
-So, instead we should have:
-
-![single-info example](fig/single-info.png)
 
 ## Exercise
 
