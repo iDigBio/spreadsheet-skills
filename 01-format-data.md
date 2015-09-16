@@ -81,6 +81,7 @@ We're going to take a messy subset of the occurrence data spreadsheet and clean 
 
 ###Importing Your Data
 1. Look in Text Editor
+1. Make a backup
 2. Import into Excel as text (other import data types)?
 3. Create a methods tab
 
@@ -92,14 +93,14 @@ We're going to take a messy subset of the occurrence data spreadsheet and clean 
 
 ###Using Your Text Editor
 4. Separate country and state [\s\w+\n]
-5. CONCATENATE() a scientificName
-6. TRIM() a field
+5. =CONCATENATE() a scientificName
+6. =TRIM() a field
 7. Multiple data types in one field M/F
 
 ###Advanced Functions
 7. Look at taxon names
 8. Match =INDEX(Sheet3!$E$2:$E$35,MATCH(Sheet3!$B$2:$B$35,0))
-9. IFERROR
+9. =IFERROR()
 9. Dates as Data
 
 Previous: [Introduction](00-intro.html)
