@@ -4,6 +4,14 @@ title: Using spreadsheet programs for scientific data
 root: .
 ---
 
+[Data Carpentry](http://www.datacarpentry.org/)
+
+This lesson was recently cloned and expanded from Data Carpentry's "Better Spreadsheet Skills for Ecologists". Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less
+time, and with less pain. The lessons below were designed for those interested
+in working with {{page.domain %}} data in {{page.topic %}}.
+
+
+---
 Good data organization is the foundation of your research project. Most researchers
 have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
 
