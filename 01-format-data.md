@@ -79,11 +79,28 @@ We're going to take a messy subset of the occurrence data spreadsheet and clean 
 
 - Download the data by clicking [here](https://goo.gl/gyRwx7)
 
-- Open your data in a text editing program and look at it.
-	* How is the data delimited?
-	
-- Open in a spreadsheet program.
-	
-- How would you clean up this datasheet?
+###Importing Your Data
+1. Look in Text Editor
+2. Import into Excel as text (other import data types)?
+3. Create a methods tab
 
-Previous: [Introduction](00-intro.html)  Next: [Formatting problems](02-common-mistakes.html)
+###Let's Get Started
+1. Merge the two tables together.
+2. Map Darwin Core and label headers.
+3. What kind of id is that?
+7. 0 and NULL values
+
+###Using Your Text Editor
+4. Separate country and state [\s\w+\n]
+5. CONCATENATE() a scientificName
+6. TRIM() a field
+7. Multiple data types in one field M/F
+
+###Advanced Functions
+7. Look at taxon names
+8. Match =INDEX(Sheet3!$E$2:$E$35,MATCH(Sheet3!$B$2:$B$35,0))
+9. IFERROR
+9. Dates as Data
+
+Previous: [Introduction](00-intro.html)
+Next: [Exporting data.](05-exporting-data.html)

@@ -4,9 +4,6 @@ title: Using spreadsheet programs for scientific data
 root: .
 ---
 
-Data Carpentry Authors:**Katja Seltmann**, **Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and **Ben Marwick**
-
 Good data organization is the foundation of your research project. Most researchers
 have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
 
@@ -70,13 +67,13 @@ to be able to do as researchers. We can use them for:
 
 In this lesson, we’re going to talk about:
 
-1. [Formatting data tables in spreadsheets](01-format-data.html)
-2. [Formatting problems](02-common-mistakes.html)
-3. [Dates as data.](03-dates-as-data.html)
+1. [Formatting data in spreadsheets](01-format-data.html)
+2. Formatting problems
+3. Dates as data
 4. Basic quality control and data manipulation in spreadsheets.
 5. [Exporting data from spreadsheets.](05-exporting-data.html)
-6. [Data export formats caveats](06-data-formats-caveats.html)
-8. [Functions](07-functions.html)
+6. Data export formats caveats
+8. Functions
 9. [Regular Expressions](08-regular-expressions.html)
 10. [iDigbio Portal Exercise](09-iDigBio-portal.html)
 
