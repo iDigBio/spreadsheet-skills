@@ -77,28 +77,28 @@ can use the data, and is the format required by most data repositories.
 
 We're going to take a messy subset of the occurrence data spreadsheet and clean it up.
 
-- Download the data by clicking [here](https://goo.gl/gyRwx7)
+- Download the data by clicking [here](https://goo.gl/gyRwx7) and open up the sampleoccurrence.txt file.
 
 ###Importing Your Data
-1. Look in Text Editor
-1. Make a backup
+1. First look in Text Editor, and turn on invisibles.
+1. Make a backup! and label it so you know its your master (do not touch) file.
 2. Import into Excel as text (other import data types)?
-3. Create a methods tab
+3. Create a methods tab and write down all of your steps.
 
 ###Let's Get Started
 1. Merge the two tables together
 2. Map Darwin Core and label headers
-7. 0 and NULL values
+7. 0 and NULL values? What is the difference? 
 
 ###Generate a UUID and identify IDs in the dataset
 =LOWER(CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),"-",DEC2HEX(RANDBETWEEN(0,65535),4),"-",DEC2HEX(RANDBETWEEN(16384,20479),4),"-",DEC2HEX(RANDBETWEEN(32768,49151),4),"-",DEC2HEX(RANDBETWEEN(0,65535),4),DEC2HEX(RANDBETWEEN(0,4294967295),8)))
 
 ###Using Your Text Editor
-4. Separate country and state [\s\w+\n]
+4. Separate country and state exercise.
+	- Put column into a text editor and turn on "Regular Expression" or "grep". Its a fancy search and replace. Find: (\S+.\S+\S)(.)(\S+$) ; Replace: \3 \t \1
 5. =CONCATENATE() a scientificName
 6. =TRIM() a field
 7. Multiple data types in one field M/F
-
 
 ###Advanced Functions
 7. Look at taxon names
