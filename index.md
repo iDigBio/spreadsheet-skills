@@ -5,9 +5,6 @@ root: .
 ---
 
 
-#iDigBio {{ page.topic }} for {{ page.domain }}
-=======
-
 [Data Carpentry](http://www.datacarpentry.org/)
 
 This lesson was recently cloned and expanded from Data Carpentry's "Better Spreadsheet Skills for Ecologists". Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less
